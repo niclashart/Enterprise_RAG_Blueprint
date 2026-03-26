@@ -209,6 +209,10 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+# Testframework: heruntergeladene HF-Datasets (Struktur via data/.gitkeep)
+Testframework/data/*
+!Testframework/data/.gitkeep
+
 # Marimo
 marimo/_static/
 marimo/_lsp/

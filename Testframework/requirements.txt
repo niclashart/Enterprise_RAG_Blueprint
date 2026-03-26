@@ -1,0 +1,11 @@
+# Core - no external dependencies required for the framework itself.
+# The metrics (BLEU, ROUGE, cosine similarity etc.) are implemented natively.
+#
+# Optional dependencies for integration with the main project:
+# langchain-core          # for Document type and retriever interfaces
+# langchain-chroma        # for Chroma vector store evaluation
+# langchain-ollama        # for Ollama embedding evaluation
+# langchain-openai        # for OpenAI LLM evaluation
+#
+# Hugging Face (für scripts/download_t2_ragbench.py)
+datasets>=2.14.0
